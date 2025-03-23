@@ -4,7 +4,7 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [What Is Retrieval-Augmented Generation (RAG)?](#what-is-retrieval-augmented-generation-rag)
+- [What is Retrieval-Augmented Generation (RAG)?](#what-is-retrieval-augmented-generation-rag)
 - [The Problem RAG Solves](#the-problem-rag-solves)
 - [Key Components of a RAG Pipeline](#key-components-of-a-rag-pipeline)
 - [RAG Module](#rag-module)
@@ -19,7 +19,7 @@
 
 Large Language Models (LLMs) have transformed how businesses handle natural language processing tasks—from answering customer queries to generating reports. However, even the most advanced LLMs can occasionally provide outdated or generic responses, especially when domain-specific or up-to-date information is required. This limitation has paved the way for Retrieval-Augmented Generation (RAG), an innovative framework that blends the robust language generation capabilities of LLMs with targeted retrieval from an organization’s internal knowledge bases. In this blog, we explore RAG pipelines in depth, examining their components, benefits, real-world applications, challenges, and providing a step-by-step guide for building and integrating an efficient RAG system.
 
-## What Is Retrieval-Augmented Generation (RAG)?
+## What is Retrieval-Augmented Generation (RAG)?
 
 At its core, RAG is a hybrid approach that enhances the performance of LLMs. Standard LLMs are trained on vast datasets using billions of parameters, which enable them to generate text, translate languages, and answer questions. However, these models might not be fully aligned with an organization’s current internal data or specific industry trends. RAG bridges this gap by incorporating a retrieval mechanism that fetches relevant documents or data points from dedicated repositories. Instead of solely generating responses based on what the model has “learned” during training, RAG ensures that the output is grounded in the latest, domain-specific information. This is achieved without the need for retraining the entire model, making it both cost-effective and versatile.
 
