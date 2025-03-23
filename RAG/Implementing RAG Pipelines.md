@@ -54,6 +54,8 @@ Understanding a successful RAG pipeline involves familiarizing oneself with its 
 
 ## RAG Module
 
+RAG module consists of 2 components: Retriever and Knowledge Base
+
 ![image](https://github.com/user-attachments/assets/9ca0e292-b22c-458f-ab9a-d6dcb9f2a814)Figure3: RAG module.
 
 ### How to Create the Knowledge Base
